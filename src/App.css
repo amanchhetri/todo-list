@@ -55,18 +55,6 @@ main {
   display: block;
 }
 
-/* :selection { 
-    background-image: initial; 
-    background-position-x: initial; 
-    background-position-y: initial; 
-    background-size: initial;  
-    background-attachment: initial; 
-    background-origin: initial; 
-    background-clip: initial; 
-    background-color: rgba(200, 200, 255, 0.1);
-
-}  */
-
 .header__title {
   display: flex;
   align-items: center;
