@@ -23,24 +23,15 @@
   font-style: normal;
   font-display: auto;
 }
-body {
-  margin: 0;
-  background-color: #607274;
-}
 
 body {
   font-family: aktiv-grotesk-std, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.125rem;
   line-height: 1.33333;
   color: #ded0b6;
-}
-
-body {
   padding-bottom: 120px;
-}
-
-html {
-  box-sizing: border-box;
+  margin: 0;
+  background-color: #607274;
 }
 
 html {
@@ -49,6 +40,7 @@ html {
   font-size: 16px;
   cursor: default;
   background-color: #607274;
+  box-sizing: border-box;
 }
 
 main {
@@ -150,7 +142,7 @@ ul {
 .task-form__input {
   outline: none;
   border: 0;
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #faeed188;
   border-radius: 0;
   padding: 0 0 5px;
   width: 100%;
@@ -177,7 +169,6 @@ ul {
   border-image-repeat: initial;
   border-bottom-width: 1px;
   border-bottom-style: dotted;
-  border-bottom-color: rgb(102, 102, 102);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
